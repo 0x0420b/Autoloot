@@ -1,0 +1,7 @@
+## Interface: 11444
+## Author: Neer
+## Version: 1
+## Title: [AUTOLOOT]
+## Notes: [AutoLooter]
+
+Autoloot.lua
