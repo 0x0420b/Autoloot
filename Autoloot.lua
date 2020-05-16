@@ -20,9 +20,11 @@ local function RetrieveLoot()
 end
 
 local function Main()
-    local aLoot = RetrieveLoot()
-    if aLoot and not IsMounted() then
-        UnlockedInteract(aLoot) 
+    if lb then
+        local aLoot = RetrieveLoot()
+        if aLoot and not IsMounted() then
+            UnlockedInteract(aLoot) 
+        end
     end
     
     LootFast()
